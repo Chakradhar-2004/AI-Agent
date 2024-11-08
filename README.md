@@ -56,13 +56,12 @@ A Flask-based web application that dynamically processes user queries with place
 2. **Access via Browser**
     - Navigate to `http://127.0.0.1:5000/` and submit your query with placeholders like `{Company}`.
 
-**## Example Query**### Explanation
+### Example Query
 
 - **{Company}**: Will be replaced with entries like "OpenAI", "Google", or "Microsoft".
 - **{Tourism}**: Will be replaced with entries like "Eiffel Tower", "Great Wall", or "Statue of Liberty".
-- **{Location}**: Will be replaced with entries like "Paris", "Beijing", or "New York".
 - **{Vitamins}**: Will be replaced with entries like "Vitamin C", "Vitamin D", or "Vitamin B12".
-- **{Revenue}**: Will be replaced with entries like "10M USD", "15M USD", or "20M USD".
+
 
 ### How It Works
 
@@ -76,3 +75,5 @@ When you submit the above query through the application:
 ### Sample Output
 
 For example, one of the processed queries might be:
+
+The application will generate and display the extracted data based on this customized query.
